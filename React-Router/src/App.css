@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav{
+  background-color: rgb(255, 249, 240);
+  padding: 10px;}
+
+.nav ul{
+  display: flex;
+  flex-wrap: row;
+list-style: none;
+color: rgb(75, 75, 75);
+justify-content: space-around;
+text-decoration: none;
+}
+.nav ul:hover{
+  font-weight: 800;
+  cursor: pointer;
+}
